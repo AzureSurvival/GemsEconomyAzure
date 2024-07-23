@@ -104,9 +104,7 @@ public class GemsEconomy extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new EconomyListener(), this);
         getCommand("balance").setExecutor(new BalanceCommand());
-        getCommand("baltop").setExecutor(new BalanceTopCommand());
         getCommand("economy").setExecutor(new EconomyCommand());
-        getCommand("pay").setExecutor(new PayCommand());
         getCommand("currency").setExecutor(new CurrencyCommand());
         getCommand("cheque").setExecutor(new ChequeCommand());
         getCommand("exchange").setExecutor(new ExchangeCommand());

@@ -13,11 +13,7 @@ commands:
   balance:
     description: Shows your balances
     usage: /balance (account)
-    aliases: [gbal, gmoney, bal]
-  baltop:
-    description: Shows the top balances of the server
-    usage: /baltop (currency) (page)
-    aliases: [gmoneytop, gecotop, gtop, gbaltop]
+    aliases: [gbal, gmoney]
   currency:
     description: Manage the currencies.
     usage: /currency
@@ -25,11 +21,7 @@ commands:
   economy:
     description: Give, set or take currency.
     usage: /eco <set|take|give> <account> <amount> (currency)
-    aliases: [geconomy, eco, geco, gemseconomy]
-  pay:
-    description: Pays another account
-    usage: /pay <account> <amount> (currency)
-    aliases: [gpay, gemspay]
+    aliases: [geconomy, geco, gemseconomy]
   cheque:
     usage: /cheque
     description: Write or Redeem a cheque.
